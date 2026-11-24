@@ -1,0 +1,10 @@
+[Event "London 'Immortal Game'"]
+[Site "London ENG"]
+[Date "1851.06.21"]
+[Round "?"]
+[White "Anderssen, Adolf"]
+[Black "Kieseritzky, Lionel"]
+[Result "1-0"]
+[ECO "C33"]
+
+1. e4 { [%eval 0.38] } 1... e5 { [%eval 0.00] } 2. f4 { [%eval 0.06] } 2... exf4 { [%eval -1.02] } 3. Bc4 { [%eval -0.82] } 3... Qh4+ { [%eval -1.60] } 4. Kf1 { [%eval -1.06] } 4... b5 { [%eval -1.13] } 5. Bxb5 { [%eval -0.07] } 5... Nf6 { [%eval -0.13] } 6. Nf3 { [%eval 0.03] } 6... Qh6 { [%eval 0.19] } 7. d3 { [%eval 0.35] } 7... Nh5 { [%eval 0.43] } 8. Nh4 { [%eval 0.27] } 8... Qg5 { [%eval 0.10] } 9. Nf5 { [%eval 0.46] } 9... c6 { [%eval 0.40] } 10. g4 { [%eval 0.39] } 10... Nf6 { [%eval 0.27] } 11. Rg1 $2 { [%eval 0.29] } 11... cxb5 { [%eval -3.13] } 12. h4 { [%eval -3.14] } 12... Qg6 { [%eval -3.10] } 13. h5 { [%eval -3.02] } 13... Qg5 { [%eval -3.10] } 14. Qf3 { [%eval -2.88] } 14... Ng8 { [%eval -2.80] } 15. Bxf4 { [%eval -1.46] } 15... Qf6 { [%eval -1.57] } 16. Nc3 { [%eval -1.35] } 16... Bc5 { [%eval -1.61] } 17. Nd5 { [%eval -1.47] } 17... Qxb2 { [%eval -2.44] } 18. Bd6 $2 { [%eval -2.38] } 18... Bxg1 { [%eval -7.22] } 19. e5 $4 { [%eval -7.22] } 19... Qxa1+ { [%eval -13.05] } 20. Ke2 { [%eval -12.26] } 20... Na6 { [%eval -12.26] } 21. Nxg7+ { [%eval -10.73] } 21... Kd8 { [%eval -11.29] } 22. Qf6+ $4 { [%eval -10.73] } 22... Nxf6 $4 { [%eval -20.77] } 23. Be7# { [%eval 100.00] } 1-0

@@ -1,0 +1,10 @@
+[Event "Berlin 'Evergreen Game'"]
+[Site "Berlin GER"]
+[Date "1852.??.??"]
+[Round "?"]
+[White "Anderssen, Adolf"]
+[Black "Dufresne, Jean"]
+[Result "1-0"]
+[ECO "C52"]
+
+1. e4 { [%eval 0.38] } 1... e5 { [%eval 0.00] } 2. Nf3 { [%eval 0.06] } 2... Nc6 { [%eval -0.08] } 3. Bc4 { [%eval 0.16] } 3... Bc5 { [%eval -0.06] } 4. b4 { [%eval 0.01] } 4... Bxb4 { [%eval -1.01] } 5. c3 { [%eval -0.89] } 5... Ba5 { [%eval -0.76] } 6. d4 { [%eval -0.42] } 6... exd4 { [%eval -1.60] } 7. O-O { [%eval -1.66] } 7... d3 { [%eval -1.76] } 8. Qb3 { [%eval -1.67] } 8... Qf6 { [%eval -1.95] } 9. e5 { [%eval -1.87] } 9... Qg6 { [%eval -1.84] } 10. Re1 { [%eval -1.78] } 10... Nge7 { [%eval -1.85] } 11. Ba3 { [%eval -1.93] } 11... b5 { [%eval -2.04] } 12. Qxb5 { [%eval -0.85] } 12... Rb8 { [%eval -0.89] } 13. Qa4 { [%eval -1.08] } 13... Bb6 { [%eval -1.05] } 14. Nbd2 { [%eval -0.86] } 14... Bb7 { [%eval -0.97] } 15. Ne4 { [%eval -0.82] } 15... Qf5 { [%eval -0.91] } 16. Bxd3 { [%eval 0.39] } 16... Qh5 { [%eval 0.51] } 17. Nf6+ $2 { [%eval 1.49] } 17... gxf6 { [%eval -2.77] } 18. exf6 { [%eval -1.63] } 18... Rg8 { [%eval -1.73] } 19. Rad1 $2 { [%eval -1.79] } 19... Qxf3 { [%eval -5.33] } 20. Rxe7+ { [%eval -1.11] } 20... Nxe7 { [%eval -7.19] } 21. Qxd7+ $4 { [%eval -5.20] } 21... Kxd7 { [%eval -15.74] } 22. Bf5+ { [%eval -14.52] } 22... Ke8 { [%eval -15.39] } 23. Bd7+ { [%eval -14.58] } 23... Kf8 $4 { [%eval -15.44] } 24. Bxe7# { [%eval 100.00] } 1-0

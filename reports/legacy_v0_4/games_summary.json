@@ -1,0 +1,58 @@
+[
+  {
+    "file": "evergreen_1852.pgn",
+    "white": "Anderssen",
+    "black": "Dufresne",
+    "result": "1-0",
+    "opening": "Italian Game",
+    "plies": 47,
+    "swings": 6,
+    "biggest_swing_cp": -1054,
+    "biggest_swing_move": "Kxd7",
+    "most_dramatic_move": "Bxe7#",
+    "wp_change_at_drama": 0.998,
+    "final_eval_cp": 10000
+  },
+  {
+    "file": "immortal_1851.pgn",
+    "white": "Anderssen",
+    "black": "Kieseritzky",
+    "result": "1-0",
+    "opening": "King's Gambit",
+    "plies": 45,
+    "swings": 5,
+    "biggest_swing_cp": -1004,
+    "biggest_swing_move": "Nxf6",
+    "most_dramatic_move": "Be7#",
+    "wp_change_at_drama": 1.0,
+    "final_eval_cp": 10000
+  },
+  {
+    "file": "morphy_paulsen_1857.pgn",
+    "white": "Paulsen",
+    "black": "Morphy",
+    "result": "0-1",
+    "opening": "Four Knights",
+    "plies": 56,
+    "swings": 8,
+    "biggest_swing_cp": 942,
+    "biggest_swing_move": "gxf3",
+    "most_dramatic_move": "gxf3",
+    "wp_change_at_drama": 0.729,
+    "final_eval_cp": -222
+  },
+  {
+    "file": "opera_1858.pgn",
+    "white": "Morphy",
+    "black": "Duke Karl / Count Isouard",
+    "result": "1-0",
+    "opening": "Philidor Defence",
+    "plies": 33,
+    "swings": 9,
+    "biggest_swing_cp": -983,
+    "biggest_swing_move": "Nxb8",
+    "most_dramatic_move": "Rd8#",
+    "wp_change_at_drama": 0.984,
+    "final_eval_cp": 10000
+  }
+]

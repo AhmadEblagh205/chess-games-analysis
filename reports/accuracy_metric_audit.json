@@ -1,0 +1,11 @@
+{
+  "experiment": "synthetic centipawn-path metric audit; not chess performance",
+  "worlds": 500,
+  "players": 1000,
+  "median_current_minus_plain_mean": -1.2420050554929034,
+  "median_absolute_difference": 1.2420050554929034,
+  "p90_absolute_difference": 6.5864653142027425,
+  "max_absolute_difference": 32.688845416365766,
+  "fraction_abs_difference_over_1_point": 0.543,
+  "conclusion": "plain arithmetic mean and current Lichess-style game aggregation are not interchangeable"
+}

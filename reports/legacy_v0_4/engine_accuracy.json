@@ -1,0 +1,42 @@
+[
+  {
+    "game": "evergreen_1852",
+    "white": "Anderssen, Adolf",
+    "black": "Dufresne, Jean",
+    "white_accuracy": 84.8,
+    "black_accuracy": 82.0,
+    "white_avg_winpct_loss": 5.38,
+    "black_avg_winpct_loss": 6.59,
+    "plies": 47
+  },
+  {
+    "game": "immortal_1851",
+    "white": "Anderssen, Adolf",
+    "black": "Kieseritzky, Lionel",
+    "white_accuracy": 87.4,
+    "black_accuracy": 81.2,
+    "white_avg_winpct_loss": 5.63,
+    "black_avg_winpct_loss": 8.03,
+    "plies": 45
+  },
+  {
+    "game": "morphy_paulsen_1857",
+    "white": "Paulsen, Louis",
+    "black": "Morphy, Paul",
+    "white_accuracy": 87.9,
+    "black_accuracy": 91.7,
+    "white_avg_winpct_loss": 3.39,
+    "black_avg_winpct_loss": 2.15,
+    "plies": 56
+  },
+  {
+    "game": "opera_1858",
+    "white": "Morphy, Paul",
+    "black": "Duke Karl / Count Isouard",
+    "white_accuracy": 90.5,
+    "black_accuracy": 85.4,
+    "white_avg_winpct_loss": 2.75,
+    "black_avg_winpct_loss": 3.82,
+    "plies": 33
+  }
+]
