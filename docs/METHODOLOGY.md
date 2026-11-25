@@ -95,3 +95,19 @@ The September 2026 audit environment did not contain `python-chess` or Stockfish
 ## 11. Multi-game PGN exports
 
 Lichess user exports commonly contain many games in one PGN file. V1 iterated over files but called `read_game` once per file, so the documented `fetch_lichess.py -> analysis.py` workflow silently analysed only the first game. V2 reads until EOF and validates every parsed game.
+
+## Notes moved from the README
+
+The default evaluator uses material values in centipawns, compact piece-square bonuses, two centipawns per legal move for mobility, checkmate at plus or minus 10,000 and exactly zero for drawn terminal positions. analysis.py traces hand evaluation and material through each PGN, gives a coarse opening-family label and flags hand-evaluation swings. These swings are descriptive changes in this model's score, not objective mistakes. The bundled sample has four nineteenth-century games: the Immortal Game, the Evergreen Game, Morphy's Opera Game and Paulsen-Morphy.
+
+The hand score is passed through the same logistic transform that Lichess uses for engine centipawns, for charts only. That transform was derived for engine evaluations, so the hand-evaluator chart is labelled as heuristic.
+
+The annotator now writes [%eval ...] [hand-eval] comments and neutral [hand-swing ...] diagnostics for large adverse two-ply changes, in place of the old ? and ?? glyphs.
+
+accuracy.py needs a local Stockfish binary. It converts the White-perspective score to the Lichess win-percentage scale (capped at plus or minus 1,000 cp), applies the move-accuracy curve and aggregates with the weighted and harmonic definition, and reports the plain mean separately. Stockfish was not available when v0.5 was rebuilt, so no new Stockfish accuracy numbers are published, and the old depth-10 results in reports/legacy_v0_4/ are historical. Reusing the move formula with a different aggregation gives a related metric, not the same one.
+
+Aggregation stress test: across 500 synthetic centipawn-path worlds (1,000 synthetic player-games), the median absolute difference between the current aggregation and a plain mean is 1.24 accuracy points, the 90th percentile is 6.59, and 54.3% of cases differ by more than one point. This tests the metric definition and is not chess evidence. The old Morphy accuracy of 91.7 came from the arithmetic mean.
+
+Opening labels use the PGN's ECO code first, with a small SAN-prefix fallback for user games. A single Lichess export file can hold many games, and v2 analyses all of them (v1 analysed only the first).
+
+Tests: the pure metric suite (tests/test_metrics.py) passed 8 of 8 in the audit environment. The full suite needs python-chess, which was not installed there, so CI is the runtime check for it. The Stockfish integration test skips when no engine is installed.
